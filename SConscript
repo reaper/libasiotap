@@ -17,7 +17,7 @@ import os, sys
 
 from freelan.buildtools import LibraryProject, Environment
 
-libraries.append('boost_system' + os.environ['FREELAN_BOOST_SUFFIX'])
+libraries.append('boost_system')
 
 if sys.platform.startswith('win32'):
     libraries.append('ws2_32')
